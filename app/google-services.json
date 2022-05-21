@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1034289635156",
+    "project_id": "projectbookstoreapp",
+    "storage_bucket": "projectbookstoreapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1034289635156:android:35649e1d16348e0c9a32c1",
+        "android_client_info": {
+          "package_name": "com.kotlin.projectapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1034289635156-72nfejaoun9p09atidhb4546ohs8rfa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3sWlzTL2SRdL_IcMJXQsVUL4INj_U0tM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1034289635156-72nfejaoun9p09atidhb4546ohs8rfa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tvNAMA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:padding="10dp"
+        android:text="Simple Aplication Book Store Management"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/logoccit"
+        android:layout_width="250dp"
+        android:layout_height="220dp"
+        android:layout_below="@id/tvNAMA"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"
+        android:src="@drawable/ic_logoccit" />
+
+    <TextView
+        android:id="@+id/tvNIM"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/logoccit"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="85dp"
+        android:padding="10dp"
+        android:text="Virgi F Hermawan - 2020010102"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="24dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvNIM2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNIM"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp"
+        android:padding="10dp"
+        android:text="Siti Rayhannah - 2020010094 "
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="26dp" />
+
+    <Button
+        android:id="@+id/btnmulai"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvNIM2"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="80dp"
+        android:background="#F19595"
+        android:padding="10dp"
+        android:text="MULAI!"
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+</RelativeLayout>
